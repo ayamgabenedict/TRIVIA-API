@@ -340,7 +340,7 @@ python test_flaskr.py
 **Search a question**
 ![search](search_1.png)
 
-![search](search_2.PNG)
+![search](search_2.png)
 
 **Add a question**
 ![add](add_new_trivia_question.png)
