@@ -323,7 +323,7 @@ python test_flaskr.py
 
 ## Author
 
-- [Benedict Ayamaga](https://github.com/ayamgabenedict)
+- [Benedict Ayamga](https://github.com/ayamgabenedict)
 
 ## Acknowledgements
 
