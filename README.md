@@ -323,7 +323,7 @@ python test_flaskr.py
 
 ## Author
 
-- [Benedict Ayamaga](https://github.com/ayamgabenedict)
+- [Benedict Ayamga](https://github.com/ayamgabenedict)
 
 ## Acknowledgements
 
@@ -333,14 +333,14 @@ python test_flaskr.py
 
 **Playing trivia**
 
-![play_trivia1](play_1.PNG)
+![play_trivia1](play_1.png)
 
-![play_trivia2](play_2.PNG)
+![play_trivia2](play_2.png)
 
 **Search a question**
-![search](search_1.PNG)
+![search](search_1.png)
 
 ![search](search_2.PNG)
 
 **Add a question**
-![add](add_new_trivia_question.PNG)
+![add](add_new_trivia_question.png)
