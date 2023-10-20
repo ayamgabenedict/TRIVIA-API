@@ -3,7 +3,7 @@
 ## Trivia API App
 
 A bunch of team members got the idea to hold trivia on a regular basis and thus, created a webpage to manage the trivia app and play the game.
-The Trivia API App allows team members to see who is is the most knowledgeable of the bunch by answering correctly the series of questions. Hope you have fun whiles learning from this trivia.
+The Trivia API App allows team members to see who is is the most knowledgeable of the bunch by answering correctly the series of questions. Hope you have fun whiles learning.
 
 **Home Page**
 ![homepage](/homepage.png)
@@ -40,7 +40,7 @@ The [frontend](./frontend/README.md) directory contains a complete React fronten
 npm install
 ```
 
-> _tip_: `npm i`is shorthand for `npm install``
+> _tip_: `npm i` is shorthand for `npm install``
 
 ## Required Tasks
 
@@ -72,13 +72,13 @@ The [backend](./backend) directory contains a complete Flask App, running on the
 
 3.  **PIP Dependencies**
 
-    Once you have your virtual environment setup and running, install dependencies by naviging to the `/backend` directory and running:
+    Once you have your virtual environment setup and running, install dependencies by navigating to the `/backend` directory and running:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-This will install all of the required packages necessary for your Flask App to up and running.
+This will install all of the required packages necessary for your Flask App.
 
 ##### Key Dependencies
 
@@ -135,7 +135,7 @@ Setting the `FLASK_APP` variable to `flaskr` directs flask to use the `flaskr` d
 
 ## API
 
-GET `\categories`
+GET `/categories`
 Fetches a dictionary of all available categories
 
 - _Request parameters:_ none
@@ -157,7 +157,7 @@ Fetches a dictionary of all available categories
 
 ```
 
-GET `\questions?page=<page_number>`
+GET `/questions?page=<page_number>`
 Fetches a paginated dictionary of questions of all available categories
 
 - _Request parameters (optional):_ page:int
