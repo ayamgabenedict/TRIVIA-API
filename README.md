@@ -124,7 +124,7 @@ Setting the `FLASK_APP` variable to `flaskr` directs flask to use the `flaskr` d
 | No  | Completed | Task Description                                                                                                                                                                                                                                   |
 | :-- | :-------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1.  |  **[x]**  | Use Flask-CORS to enable cross-domain requests and set response headers..                                                                                                                                                                          |
-| 2.  |  **[x]**  | Create an endpoint to handle GET requests for questions, including pagination (every 10 questions). This endpoint should return a list of questions, number of total questions, current category, categories. it.                                  |
+| 2.  |  **[x]**  | Create an endpoint to handle GET requests for questions, including pagination (every 10 questions). This endpoint should return a list of questions, number of total questions, current category.                                                  |
 | 3.  |  **[x]**  | Create an endpoint to handle GET requests for all available categories.                                                                                                                                                                            |
 | 4.  |  **[x]**  | Create an endpoint to DELETE question using a question ID.                                                                                                                                                                                         |
 | 5.  |  **[x]**  | Create an endpoint to POST a new question, which will require the question and answer text, category, and difficulty score.                                                                                                                        |
@@ -132,6 +132,7 @@ Setting the `FLASK_APP` variable to `flaskr` directs flask to use the `flaskr` d
 | 7.  |  **[x]**  | Create a POST endpoint to get questions based on a search term. It should return any questions for whom the search term is a substring of the question.                                                                                            |
 | 8.  |  **[x]**  | Create a POST endpoint to get questions to play the quiz. This endpoint should take category and previous question parameters and return a random questions within the given category, if provided, and that is not one of the previous questions. |
 | 9.  |  **[x]**  | Create error handlers for all expected errors including 400, 404, 422 and 500.                                                                                                                                                                     |
+| 10. |  **[x]**  | Write at least one test for each test for successful operation and for expected errors.                                                                                                                                                            |
 
 ## API
 
@@ -308,9 +309,9 @@ Fetches one random question within a specified category. Previously asked questi
 
 ## Testing
 
-To run the tests, run
+To deploy the tests, run
 
-```
+```bash
 dropdb trivia_test
 createdb trivia_test
 psql trivia_test < trivia.psql
